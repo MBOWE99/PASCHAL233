@@ -1,0 +1,35 @@
+
+-T4 -A -v -Pn 192.168.137.211
+
+|---------- Services
+
+135/tcp  open  msrpc   Microsoft Windows RPC
+2179/tcp open  vmrdp?
+5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+
+|---------- General information
+
+Host is up (0.0038s latency).
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+Nmap done: 1 IP address (1 host up) scanned in 40.90 seconds
+
+|---------- Traceroute information
+
+
+|---------- Nse result
+
+--- Host script results:
+
+nbstat: NetBIOS name: DESKTOP-TM4UBR1, NetBIOS user: <unknown>, NetBIOS MAC: 648099f7525b (Intel Corporate)
+Names:
+DESKTOP-TM4UBR1<00>  Flags: <unique><active>
+WORKGROUP<00>        Flags: <group><active>
+
+--- 5357/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+
+http-server-header: Microsoft-HTTPAPI/2.0
+http-title: Service Unavailable
+
+|---------- Scan Errors/Warning
+
+Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times may be slower.
